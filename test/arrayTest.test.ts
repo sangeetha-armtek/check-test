@@ -17,7 +17,9 @@ test("sortByGrade", () => {
 
 test("uniqueCharacter", () => {
   expect(findFirstUniqueChar("Book")).toEqual("b");
+  expect(findFirstUniqueChar("Book")).toEqual("B");
   expect(findFirstUniqueChar("Turtle")).toEqual("t");
+  expect(findFirstUniqueChar("Feet")).toEqual("e");
 });
 
 test("sortByAgeAndGrade", () => {
